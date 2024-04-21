@@ -22,8 +22,8 @@ const tiers = [
     name: 'Get More Credits',
     id: 'tier-freelancer',
     href: '#',
-    price: { monthly: '$5', annually: '$60' },
-    description: 'Support your child with their homework',
+    price: { monthly: '$17', annually: '$204' },
+    description: 'Oracle Apprentice',
     features: ['100 credits', 'Ask me anything', 'Covers 100 conversations'],
     mostPopular: false
   }
@@ -36,7 +36,7 @@ export default function SubscriptionDialog(
     try {
       const lineItems = [
         {
-          price: 'price_1OpZIpFohaWPLRtCx8kh4FN5',
+          price: 'price_1P7oViLj2nCgt0Fhr3MRKqrn',
           quantity: 1
         }
       ]
